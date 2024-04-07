@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="71AD00A4-DDEA-E56C-AFBB-E3B06BA9D60B" name="GRM4_DIM_GRUPPO_MERCI_DWA">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:55:55 UTC</createdTime>
+<generatorID>5B12373D-1D5F-6011-3D3E-19B006EC115C</generatorID>
+<ownerDesignName>GRM4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MATERIAL_GROUP_COD" id="8BBAAB19-076B-FC87-578B-BCD84D242FFB">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:55:55 UTC</createdTime>
+<generatorID>EF2F5A41-8E5E-8170-2A52-F06CDC1594EB</generatorID>
+<ownerDesignName>GRM4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MATERIAL_GROUP_DES" id="DF7F2E2E-1F13-C462-E758-43476BEC4BC1">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:55:55 UTC</createdTime>
+<generatorID>DDFBA7C6-C1E8-4DB2-F7F5-74DAF7AFB58D</generatorID>
+<ownerDesignName>GRM4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SESSION_TAG" id="2DF1940E-CF0C-D3CC-532C-2B38803D1406">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:55:55 UTC</createdTime>
+<generatorID>94506F7E-A4E6-2A8C-1A04-66E87F899AA8</generatorID>
+<ownerDesignName>GRM4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8885A647-EF72-CDA6-2A04-5B8D658F3F65" name="DIM_GRUPPO_MERCI_GRM4_DWA_PK">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:55:55 UTC</createdTime>
+<generatorID>43B7FB35-277A-189D-0A84-0633576C41DA</generatorID>
+<ownerDesignName>GRM4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BBAAB19-076B-FC87-578B-BCD84D242FFB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

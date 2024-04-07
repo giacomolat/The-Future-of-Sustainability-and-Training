@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8EE5A99F-F0BA-554A-CAA7-0B0CF6227DF0" name="GRM4_COMPANY_COUNTRY_DWA">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-20 09:16:32 UTC</createdTime>
+<ownerDesignName>GRM4</ownerDesignName>
+<engineerTo>
+<item key="82CB2C1B-5291-78D3-0BEB-3A88C148D9A9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COUNTRY_COD" id="B945EC7F-CD0A-7BE5-7631-5F19A1A03038">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-20 09:17:06 UTC</createdTime>
+<ownerDesignName>GRM4</ownerDesignName>
+<engineerTo>
+<item key="82CB2C1B-5291-78D3-0BEB-3A88C148D9A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COMPANY_COD" id="67C726E7-A988-DABE-A9A4-BC1C5F8BE956">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-20 09:17:41 UTC</createdTime>
+<ownerDesignName>GRM4</ownerDesignName>
+<engineerTo>
+<item key="82CB2C1B-5291-78D3-0BEB-3A88C148D9A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CURRENCY_COD" id="4CDEE686-4A8B-C37A-40CD-63544D8BA9CC">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-20 21:11:35 UTC</createdTime>
+<ownerDesignName>GRM4</ownerDesignName>
+<engineerTo>
+<item key="82CB2C1B-5291-78D3-0BEB-3A88C148D9A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SESSION_TAG" id="4F549C83-10D7-10BF-C05F-338F86EF2FFC">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:51:28 UTC</createdTime>
+<ownerDesignName>GRM4</ownerDesignName>
+<engineerTo>
+<item key="82CB2C1B-5291-78D3-0BEB-3A88C148D9A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CEB07AD3-49A2-E393-6E75-4F8F7DAD1744" name="COMPANY_COUNTRY_GRM4_DWA PK">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-20 09:17:40 UTC</createdTime>
+<ownerDesignName>GRM4</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="82CB2C1B-5291-78D3-0BEB-3A88C148D9A9" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B945EC7F-CD0A-7BE5-7631-5F19A1A03038</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

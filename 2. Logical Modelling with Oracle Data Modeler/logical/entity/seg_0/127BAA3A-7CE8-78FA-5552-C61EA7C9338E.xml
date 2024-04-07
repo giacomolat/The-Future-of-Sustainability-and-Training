@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="127BAA3A-7CE8-78FA-5552-C61EA7C9338E" name="GRM4_DIM_FORNITORI_DWA">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-20 11:15:24 UTC</createdTime>
+<ownerDesignName>GRM4</ownerDesignName>
+<engineerTo>
+<item key="82CB2C1B-5291-78D3-0BEB-3A88C148D9A9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="VENDOR_COD" id="E6547A99-1C7C-3537-2187-7606163E6F98">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-20 11:15:38 UTC</createdTime>
+<ownerDesignName>GRM4</ownerDesignName>
+<engineerTo>
+<item key="82CB2C1B-5291-78D3-0BEB-3A88C148D9A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VENDOR_DES" id="AE6B5E86-3981-4C56-764F-27AB85DC9A60">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-20 11:16:04 UTC</createdTime>
+<ownerDesignName>GRM4</ownerDesignName>
+<engineerTo>
+<item key="82CB2C1B-5291-78D3-0BEB-3A88C148D9A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ADDRESS_DES" id="02667D1A-1DBD-7F96-8EE6-E9C642D0AE3A">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-20 11:16:22 UTC</createdTime>
+<ownerDesignName>GRM4</ownerDesignName>
+<engineerTo>
+<item key="82CB2C1B-5291-78D3-0BEB-3A88C148D9A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GROUP_LEADER_COD" id="0A99BA99-E4DB-FFB8-25C1-FC4131FBC9B5">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-20 11:16:42 UTC</createdTime>
+<generatorID>FA4ECA6C-B6AF-CEAB-A2F7-1E1936D60A6E</generatorID>
+<ownerDesignName>GRM4</ownerDesignName>
+<engineerTo>
+<item key="82CB2C1B-5291-78D3-0BEB-3A88C148D9A9" value="true"/>
+</engineerTo>
+<referedAttribute>541D8C92-53D4-AFA5-88E1-7B07D6F42FBC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SESSION_TAG" id="69716088-AFE5-04B9-216A-39EA8D867BAC">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:51:47 UTC</createdTime>
+<ownerDesignName>GRM4</ownerDesignName>
+<engineerTo>
+<item key="82CB2C1B-5291-78D3-0BEB-3A88C148D9A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA_VALIDITA_DA" id="78F91481-DFCC-D9BC-81AF-E719953C7763">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:52:58 UTC</createdTime>
+<ownerDesignName>GRM4</ownerDesignName>
+<engineerTo>
+<item key="82CB2C1B-5291-78D3-0BEB-3A88C148D9A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA_VALIDITA_A" id="1FC2AEFC-766C-BF45-AE96-F098AB2E5235">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:53:27 UTC</createdTime>
+<ownerDesignName>GRM4</ownerDesignName>
+<engineerTo>
+<item key="82CB2C1B-5291-78D3-0BEB-3A88C148D9A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FLAG_ATTIVO" id="A3DE8236-C971-76C3-DEB1-30A0C6813DB5">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:53:59 UTC</createdTime>
+<ownerDesignName>GRM4</ownerDesignName>
+<engineerTo>
+<item key="82CB2C1B-5291-78D3-0BEB-3A88C148D9A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D08A0CE7-965E-493C-C57E-BD7E6833B20D" name="DIM_FORNITORI_GRM4_DWA PK">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-20 11:15:59 UTC</createdTime>
+<ownerDesignName>GRM4</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="82CB2C1B-5291-78D3-0BEB-3A88C148D9A9" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E6547A99-1C7C-3537-2187-7606163E6F98</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

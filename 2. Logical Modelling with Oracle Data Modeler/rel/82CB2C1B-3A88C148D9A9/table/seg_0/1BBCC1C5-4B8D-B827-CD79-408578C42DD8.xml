@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1BBCC1C5-4B8D-B827-CD79-408578C42DD8" name="GRM4_MESE_DWA">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:55:55 UTC</createdTime>
+<generatorID>AB5F662D-D6A8-5FDF-C855-2584241FC185</generatorID>
+<ownerDesignName>GRM4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="YEAR_MONTH" id="96FDFAB3-2E29-B672-E6A7-FD3E9E71E35A">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:55:55 UTC</createdTime>
+<generatorID>854C6000-58D8-D226-3D67-D41E52BA02C0</generatorID>
+<ownerDesignName>GRM4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEMESTRE_GRM4_DWA_SEM_COD" id="4DBC7F0D-7A63-E51B-BE51-A79736BE0B9F">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:55:55 UTC</createdTime>
+<generatorID>1716082D-AF44-6869-BA4C-2EDC45D3DEF8</generatorID>
+<ownerDesignName>GRM4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<ownDataTypeParameters>6 BYTE,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F724D057-1D93-86E3-0DDA-8B50ABB67363" referredColumn="1C5C51E9-5A19-CAA1-C8F3-56B9F44B5013"/>
+</associations>
+</Column>
+<Column name="SESSION_TAG" id="9C595506-313A-096F-856C-FDF26F48A510">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:55:55 UTC</createdTime>
+<generatorID>66E9BA4F-C118-7E42-A621-F54F945FA9BC</generatorID>
+<ownerDesignName>GRM4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="511D21C3-D92E-5335-74E9-24B41E1E059A" name="MESE_GRM4_DWA_PK">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:55:55 UTC</createdTime>
+<generatorID>62B76EDC-7840-AE8C-FE52-4436D0645912</generatorID>
+<ownerDesignName>GRM4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96FDFAB3-2E29-B672-E6A7-FD3E9E71E35A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DA47237E-DC49-23D2-981E-456F34B26B48" name="MESE_GRM4_DWA_SEMESTRE_GRM4_DWA_FK">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:55:55 UTC</createdTime>
+<generatorID>70750EC1-0ED8-B4E3-52BE-8DCDEBDC8E09</generatorID>
+<ownerDesignName>GRM4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4DBC7F0D-7A63-E51B-BE51-A79736BE0B9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F4E05F36-40AA-96BF-2DC5-C0ABD7E8453A" containerWithKeyObject="EC320E77-8590-1A2C-98D0-477DB7E99043" localFKIndex="107FA0AD-A915-D094-89E4-40451E8CA702" name="F_KPI_GRM4_DWE_MESE_GRM4_DWA_FK">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:55:55 UTC</createdTime>
+<generatorID>44EFBF9A-9C0C-DD4D-F505-AA052E5BBC92</generatorID>
+<ownerDesignName>GRM4</ownerDesignName>
+<referredTableLongName>MESE_GRM4_DWA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1BBCC1C5-4B8D-B827-CD79-408578C42DD8</referredTableID>
+<keyObject>511D21C3-D92E-5335-74E9-24B41E1E059A</keyObject>
+<referredKeyID>511D21C3-D92E-5335-74E9-24B41E1E059A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>YEAR_MONTH</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

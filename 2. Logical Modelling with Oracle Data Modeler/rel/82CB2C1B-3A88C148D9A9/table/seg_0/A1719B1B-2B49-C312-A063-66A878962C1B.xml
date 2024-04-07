@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A1719B1B-2B49-C312-A063-66A878962C1B" name="GRM4_DIM_COMPANY_DWA">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:55:55 UTC</createdTime>
+<generatorID>8AB46AF6-604E-5CD6-523A-2E09E91D2FCD</generatorID>
+<ownerDesignName>GRM4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COMPANY_COD" id="F3A53AEC-1BF7-9772-8471-3C77B26E18F6">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:55:55 UTC</createdTime>
+<generatorID>00233982-7CAA-F6B6-4D9F-D69BF179EC33</generatorID>
+<ownerDesignName>GRM4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMPANY_DES" id="72F8DF83-5295-5DFB-8BFC-26D5E34E3809">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:55:55 UTC</createdTime>
+<generatorID>3759C864-6DA0-8D58-E5D2-DDCE9BDCD352</generatorID>
+<ownerDesignName>GRM4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMPANY_COUNTRY_GRM4_DWA_COUNTRY_COD" id="189DA9B9-6BC2-018F-6FB6-14873FADDE6D">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:55:55 UTC</createdTime>
+<generatorID>5993805D-4727-E844-4A06-C7CA5C6383D7</generatorID>
+<ownerDesignName>GRM4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F94B2B1-F907-B4BF-49B1-B132E3A255CF" referredColumn="8AA64622-0592-254F-BA50-0F26C13C0423"/>
+</associations>
+</Column>
+<Column name="SESSION_TAG" id="C714D482-AD29-609E-8954-C637115B45D9">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:55:55 UTC</createdTime>
+<generatorID>42C244C8-058C-072A-64DC-5A78E4E83428</generatorID>
+<ownerDesignName>GRM4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="915D45D6-1FF7-125B-6932-841AE5B16623" name="DIM_COMPANY_GRM4_DWA_PK">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:55:55 UTC</createdTime>
+<generatorID>03993B6D-AD22-EB72-11DA-97CD0EAB02A5</generatorID>
+<ownerDesignName>GRM4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3A53AEC-1BF7-9772-8471-3C77B26E18F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F653F012-B00A-8BBD-7AA8-1B0CB7D81DFE" name="DIM_COMPANY_GRM4_DWA_COMPANY_COUNTRY_GRM4_DWA_FK">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:55:55 UTC</createdTime>
+<generatorID>8CCF3845-1F7E-0A78-F112-A24A0D9A4E20</generatorID>
+<ownerDesignName>GRM4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="189DA9B9-6BC2-018F-6FB6-14873FADDE6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5F17002C-70F2-C663-18D2-BEAEA12B0CCA" containerWithKeyObject="45279BD0-09B1-060D-5D83-53616D80E9FA" localFKIndex="EB4895EC-C277-6898-EC68-C9D2552A6FCC" name="DIM_FORNITORI_GRM4_DWA_GROUP_LEADER_GRM4_DWA_FK">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:55:55 UTC</createdTime>
+<generatorID>FA4ECA6C-B6AF-CEAB-A2F7-1E1936D60A6E</generatorID>
+<ownerDesignName>GRM4</ownerDesignName>
+<referredTableLongName>GROUP_LEADER_GRM4_DWA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DE0CE5C8-0598-6204-0FBF-9C4C5926273F</referredTableID>
+<keyObject>693725E7-FC47-7CD8-3350-3F578E495AD7</keyObject>
+<referredKeyID>693725E7-FC47-7CD8-3350-3F578E495AD7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>GROUP_LEADER_COD</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

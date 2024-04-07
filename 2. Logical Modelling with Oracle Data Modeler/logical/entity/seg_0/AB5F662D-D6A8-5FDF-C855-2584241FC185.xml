@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AB5F662D-D6A8-5FDF-C855-2584241FC185" name="GRM4_MESE_DWA">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-20 21:06:53 UTC</createdTime>
+<ownerDesignName>GRM4</ownerDesignName>
+<engineerTo>
+<item key="82CB2C1B-5291-78D3-0BEB-3A88C148D9A9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="YEAR_MONTH" id="854C6000-58D8-D226-3D67-D41E52BA02C0">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-20 21:07:07 UTC</createdTime>
+<ownerDesignName>GRM4</ownerDesignName>
+<engineerTo>
+<item key="82CB2C1B-5291-78D3-0BEB-3A88C148D9A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SEM_COD" id="1716082D-AF44-6869-BA4C-2EDC45D3DEF8">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-20 21:07:53 UTC</createdTime>
+<generatorID>70750EC1-0ED8-B4E3-52BE-8DCDEBDC8E09</generatorID>
+<ownerDesignName>GRM4</ownerDesignName>
+<engineerTo>
+<item key="82CB2C1B-5291-78D3-0BEB-3A88C148D9A9" value="true"/>
+</engineerTo>
+<referedAttribute>8B352C57-EF1D-ABD6-4895-781B78F7B40B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<ownDataTypeParameters>6 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SESSION_TAG" id="66E9BA4F-C118-7E42-A621-F54F945FA9BC">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:51:25 UTC</createdTime>
+<ownerDesignName>GRM4</ownerDesignName>
+<engineerTo>
+<item key="82CB2C1B-5291-78D3-0BEB-3A88C148D9A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="62B76EDC-7840-AE8C-FE52-4436D0645912" name="MESE_GRM4_DWA PK">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-20 21:07:35 UTC</createdTime>
+<ownerDesignName>GRM4</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="82CB2C1B-5291-78D3-0BEB-3A88C148D9A9" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>854C6000-58D8-D226-3D67-D41E52BA02C0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,447 @@
+<mxfile host="app.diagrams.net" modified="2024-04-02T09:44:30.085Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="h6iSppJXB3XNJVvd0Rhj" version="24.2.1" type="google">
+  <diagram name="Pagina-1" id="TW-Zc03CJBtvETs-dFKa">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aNOPyNpl0Gq9323CoKzc-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="4831.75" y="-10" width="4158.25" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--48" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="15" y="493.75" width="1140" height="1146.25" as="geometry" />
+        </mxCell>
+        <mxCell id="uID3CXKB9SxEAJkN432x-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="10" width="1140" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="uID3CXKB9SxEAJkN432x-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uID3CXKB9SxEAJkN432x-1" target="uID3CXKB9SxEAJkN432x-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uID3CXKB9SxEAJkN432x-1" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="70" y="70" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uID3CXKB9SxEAJkN432x-2" value="CUSTOMER_PROJECT_SRC_&lt;div&gt;2022/23/24.FATTURATO&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="15" y="160" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uID3CXKB9SxEAJkN432x-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uID3CXKB9SxEAJkN432x-5" target="uID3CXKB9SxEAJkN432x-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uID3CXKB9SxEAJkN432x-5" value="Cancellare tutte le righe della destinazione che hanno DATE_COD BETWEEN DATA_VALIDITA_DA E A" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="80" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uID3CXKB9SxEAJkN432x-7" target="m220k4vpnrt8Gnx3Cpo--1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uID3CXKB9SxEAJkN432x-7" value="Caricare tutte le righe della sorgente con DATE_COD BETWEEN DATA_VALIDITA_DA E A" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="512.5" y="75" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m220k4vpnrt8Gnx3Cpo--1" target="m220k4vpnrt8Gnx3Cpo--3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--1" value="Aggiunta SESSION_TAG" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--3" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="940" y="70" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--5" value="GRM4_ODS_SRC_FATTURATO" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="890" y="150" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--6" value="Full Refresh Partizionato" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="-5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="17.5" width="3580" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k1Mtf4xs3OCMBJWguTNM-3" target="m220k4vpnrt8Gnx3Cpo--11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--9" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="30" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--10" value="GRM4_ODS_SRC_FATTURATO" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="110" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m220k4vpnrt8Gnx3Cpo--11" target="m220k4vpnrt8Gnx3Cpo--15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1595" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--11" value="Aggiunta SESSION_TAG" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="51.25" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m220k4vpnrt8Gnx3Cpo--15" target="m220k4vpnrt8Gnx3Cpo--73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--15" value="Conversione dei dati dal tipo dato sorgente a quello destinazione mettendo a NULL i campi che non possono essere convertiti" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1790" y="47.5" width="185" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m220k4vpnrt8Gnx3Cpo--19" target="m220k4vpnrt8Gnx3Cpo--26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--19" value="check FK con DIM_FORNITORI (A.VENDOR_COD= B.VENDOR_COD E DATE COD BETWEEN DATA_VALIDITA DA E A)&amp;nbsp; e inserimento valore fittizio in caso di check fallito" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2230" y="33.75" width="202.5" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m220k4vpnrt8Gnx3Cpo--21" target="m220k4vpnrt8Gnx3Cpo--19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--21" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="220" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--22" value="GRM4_DIM_FORNITORI_DWA" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="300" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m220k4vpnrt8Gnx3Cpo--26" target="m220k4vpnrt8Gnx3Cpo--31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--26" value="check FK con DIM_COMPANY (A.COMPANY_COD = B.COMPANY_COD) e inserimento valore fittizio in caso di check fallito" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2510" y="27.5" width="230" height="107.5" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m220k4vpnrt8Gnx3Cpo--28" target="m220k4vpnrt8Gnx3Cpo--26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--28" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="350" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--29" value="GRM4_DIM_COMPANY_DWA" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="440" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m220k4vpnrt8Gnx3Cpo--31" target="m220k4vpnrt8Gnx3Cpo--77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--31" value="check FK con DIM_GRUPPO_MERCI (A.GRUPPO_MERCI_COD= B.GRUPPO_MERCI_COD) e inserimento valore fittizio in caso di check fallito" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2820" y="30" width="230" height="107.5" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m220k4vpnrt8Gnx3Cpo--33" target="m220k4vpnrt8Gnx3Cpo--31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--33" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="520" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--34" value="GRM4_DIM_GRUPPO_MERCI_DWA" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="610" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m220k4vpnrt8Gnx3Cpo--36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--36" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="70" y="330" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--37" value="CUSTOMER_PROJECT_SRC_&lt;div&gt;2022/23/24.TASSI_CAMBIO&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="410" width="185" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--45" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="950" y="320" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--47" value="GRM4_ODS_SRC_TASSI CAMBIO" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="905" y="410" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m220k4vpnrt8Gnx3Cpo--49" target="m220k4vpnrt8Gnx3Cpo--51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--49" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="40" y="540" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--50" value="GRM4_ODS_SRC_TASSI CAMBIO" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="626.25" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m220k4vpnrt8Gnx3Cpo--51" target="m220k4vpnrt8Gnx3Cpo--53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--51" value="Aggiunta SESSION_TAG" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="551.25" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m220k4vpnrt8Gnx3Cpo--53" target="m220k4vpnrt8Gnx3Cpo--55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--53" value="Creazione chiave surrogata concatenando PERIOD_COD e CURRENCY_COD = KEY_TASSI_CAMBIO" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="538.75" width="195" height="87.5" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m220k4vpnrt8Gnx3Cpo--55" target="m220k4vpnrt8Gnx3Cpo--57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m220k4vpnrt8Gnx3Cpo--55" target="m220k4vpnrt8Gnx3Cpo--65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--55" value="Check PK su KEY_TASSI_CAMBIO" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="692.5" y="552.5" width="147.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m220k4vpnrt8Gnx3Cpo--57" target="m220k4vpnrt8Gnx3Cpo--59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--57" value="Check_PK = 1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="933.75" y="553.75" width="120" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m220k4vpnrt8Gnx3Cpo--59" target="m220k4vpnrt8Gnx3Cpo--61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--59" value="DELETE ANNO IN CORSO" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="933.75" y="688.75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m220k4vpnrt8Gnx3Cpo--61" target="m220k4vpnrt8Gnx3Cpo--63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--61" value="inserimento righe&lt;div&gt;ANNO IN CORSO&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="933.75" y="828.75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="m220k4vpnrt8Gnx3Cpo--77">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1023.75" y="1512.5" as="sourcePoint" />
+            <mxPoint x="3706.3" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NXGWbmt1NXF6LCvzMolA-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m220k4vpnrt8Gnx3Cpo--63" target="NXGWbmt1NXF6LCvzMolA-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--63" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="963.75" y="930" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--64" value="GRM4_WT_TASSI_CAMBIO" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="1010" width="186.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m220k4vpnrt8Gnx3Cpo--65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="776.9000000000001" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--65" value="Check_PK &amp;gt; 1&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="706.25" y="692.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="m220k4vpnrt8Gnx3Cpo--73" target="m220k4vpnrt8Gnx3Cpo--19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2390" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--73" value="Scarto righe che hanno fallito la conversione (NULL)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2030" y="52.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m220k4vpnrt8Gnx3Cpo--77" target="m220k4vpnrt8Gnx3Cpo--80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--77" value="LEFT OUTER JOIN&amp;nbsp; CON TASSI_CAMBIO (A.CURRENCY_COD = B.CURRENCY_COD E A.DATE_COD = B.PERIOD_COD) PER RECUPERARE LA COLONNA EXCHANGE_RATE" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3177.5" y="25" width="312.5" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m220k4vpnrt8Gnx3Cpo--80">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3956.5" y="75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--80" value="CALCOLO FATTURATO IN EURO (FATTURATO IN VALUTA * EXCHANGE_RATE)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3666.25" y="38.75" width="181.25" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--110" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m220k4vpnrt8Gnx3Cpo--107" target="m220k4vpnrt8Gnx3Cpo--109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--107" value="Eliminare dalla tabella destinazione tutte le righe con DATE_COD = Data_Caricamento" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3957.5" y="38.75" width="294.03" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--112" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m220k4vpnrt8Gnx3Cpo--109" target="m220k4vpnrt8Gnx3Cpo--111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--109" value="Inserimento righe" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4418.545" y="42.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--111" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="4627.5" y="32.5" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m220k4vpnrt8Gnx3Cpo--113" value="GRM4_F_KPI_DWA" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4587.5" y="130" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5T3f1MJpl7Perw4HwGdy-1" value="SCARTO" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="732.5" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NXGWbmt1NXF6LCvzMolA-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NXGWbmt1NXF6LCvzMolA-2" target="NXGWbmt1NXF6LCvzMolA-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NXGWbmt1NXF6LCvzMolA-2" value="Cancellare tutte le righe della destinazione che hanno PERIOD_COD BETWEEN DATA_VALIDITA_DA E A" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="182.5" y="340" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NXGWbmt1NXF6LCvzMolA-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NXGWbmt1NXF6LCvzMolA-4" target="NXGWbmt1NXF6LCvzMolA-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NXGWbmt1NXF6LCvzMolA-4" value="Caricare tutte le righe con PERIOD_COD BETWEEN DATA_VALIDITA_DA E A" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="330" width="157.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NXGWbmt1NXF6LCvzMolA-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NXGWbmt1NXF6LCvzMolA-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="942.5" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NXGWbmt1NXF6LCvzMolA-6" value="Aggiunta SESSION_TAG" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="732.5" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NXGWbmt1NXF6LCvzMolA-7" value="Full Refresh Partizionato" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="442.5" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NXGWbmt1NXF6LCvzMolA-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NXGWbmt1NXF6LCvzMolA-9" target="NXGWbmt1NXF6LCvzMolA-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NXGWbmt1NXF6LCvzMolA-9" value="CROSS JOIN SU CURRENCY_COD E PERIOD_COD PER OTTENERE TUTTE LE COMBINAZIONI&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900.63" y="1100" width="186.25" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NXGWbmt1NXF6LCvzMolA-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NXGWbmt1NXF6LCvzMolA-11" target="NXGWbmt1NXF6LCvzMolA-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NXGWbmt1NXF6LCvzMolA-11" value="FUNZIONE LAG PER RECUPERARE EXCHANGE_RATE DOVE MANCA (SI PRENDE QUELLO DEL MESE PRECEDENTE)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="895.63" y="1285" width="196.25" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="NXGWbmt1NXF6LCvzMolA-13" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="963.75" y="1460" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NXGWbmt1NXF6LCvzMolA-15" value="GRM4_WT_TASSI_CAMBIO_FULL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="900.63" y="1550" width="199.37" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4KBkpi_EZBxvpxrBKuSH-1" value="Leggo tutte le righe che hanno PERIOD_COD BETWEEN DATA_VALIDITA_DA E A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="552.5" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W7gx38a9GT8iCFO3hZa5-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W7gx38a9GT8iCFO3hZa5-1" target="W7gx38a9GT8iCFO3hZa5-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7gx38a9GT8iCFO3hZa5-1" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="4900" y="50" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="W7gx38a9GT8iCFO3hZa5-2" value="GRM4_F_KPI_DWA" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4860" y="147.5" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W7gx38a9GT8iCFO3hZa5-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W7gx38a9GT8iCFO3hZa5-3" target="W7gx38a9GT8iCFO3hZa5-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7gx38a9GT8iCFO3hZa5-3" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="4900" y="270" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="W7gx38a9GT8iCFO3hZa5-4" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="4902" y="530" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="W7gx38a9GT8iCFO3hZa5-6" value="GRM4_WT_TRAINING" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4850" y="360" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W7gx38a9GT8iCFO3hZa5-7" value="GRM4_WT_ECOVADIS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4850" y="610" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W7gx38a9GT8iCFO3hZa5-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W7gx38a9GT8iCFO3hZa5-9" target="W7gx38a9GT8iCFO3hZa5-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7gx38a9GT8iCFO3hZa5-9" value="LEGGO TUTTE LE RIGHE CON DATE_COD BETWEEN $DATACARICAMENTODA e $DATACARICAMENTOA" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5010" y="55" width="185" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="W7gx38a9GT8iCFO3hZa5-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W7gx38a9GT8iCFO3hZa5-10" target="W7gx38a9GT8iCFO3hZa5-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7gx38a9GT8iCFO3hZa5-10" value="SELEZIONO SOLO LE COLONNE VENDOR_COD,&lt;div&gt;DATE_COD, GRUPPO_MERCI_COD E TUTTE LE COLONNE DEI KPI&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5254" y="55" width="217.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="W7gx38a9GT8iCFO3hZa5-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W7gx38a9GT8iCFO3hZa5-12" target="W7gx38a9GT8iCFO3hZa5-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7gx38a9GT8iCFO3hZa5-12" value="LEFT OUTER JOIN CON TABELLA WT TRAINING ON (A.VENDOR_COD = B.VENDOR_COD E FILTRO PER FATTURATO &amp;gt; 0)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5579" y="35" width="209.75" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="W7gx38a9GT8iCFO3hZa5-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W7gx38a9GT8iCFO3hZa5-15" target="W7gx38a9GT8iCFO3hZa5-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7gx38a9GT8iCFO3hZa5-15" value="ASSEGNO FLAG_TRAINING = 1 DOVE VENDOR_COD NON è NULL E FATTURATO &amp;gt;0, ALTRIMENTI FLAG_TRAINING = 0&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5880" y="40" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="W7gx38a9GT8iCFO3hZa5-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W7gx38a9GT8iCFO3hZa5-18" target="W7gx38a9GT8iCFO3hZa5-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7gx38a9GT8iCFO3hZa5-18" value="LEFT OUTER JOIN CON TABELLA WT ECOVADIS ON (A.VENDOR_COD = B.VENDOR_COD E FILTRO PER FATTURATO &amp;gt; 0)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6150" y="35" width="209.75" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="W7gx38a9GT8iCFO3hZa5-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W7gx38a9GT8iCFO3hZa5-19" target="W7gx38a9GT8iCFO3hZa5-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7gx38a9GT8iCFO3hZa5-19" value="ASSEGNO FLAG_ECOVADIS = 1 DOVE VENDOR_COD NON è NULL E FATTURATO &amp;gt;0, ALTRIMENTI FLAG_ECOVADIS = 0&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6461" y="40" width="189" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="W7gx38a9GT8iCFO3hZa5-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W7gx38a9GT8iCFO3hZa5-21" target="W7gx38a9GT8iCFO3hZa5-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7gx38a9GT8iCFO3hZa5-21" value="CALCOLO FATTURATO_FORNITORI_TRAINING" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6754" y="55" width="275.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="W7gx38a9GT8iCFO3hZa5-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W7gx38a9GT8iCFO3hZa5-23" target="W7gx38a9GT8iCFO3hZa5-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7gx38a9GT8iCFO3hZa5-23" value="CALCOLO % FATTURATO FORNITORI TRAINING&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="7187.25" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W7gx38a9GT8iCFO3hZa5-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W7gx38a9GT8iCFO3hZa5-26" target="W7gx38a9GT8iCFO3hZa5-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7gx38a9GT8iCFO3hZa5-26" value="CALCOLO FATTURATO_FORNITORI_ECOVADIS" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="7390" y="52.5" width="275.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="W7gx38a9GT8iCFO3hZa5-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W7gx38a9GT8iCFO3hZa5-27" target="W7gx38a9GT8iCFO3hZa5-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7gx38a9GT8iCFO3hZa5-27" value="CALCOLO % FATTURATO FORNITORI ECOVADIS&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="7793.25" y="57.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W7gx38a9GT8iCFO3hZa5-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2lmD2Wr2pzCbxsvdMVTa-2" target="W7gx38a9GT8iCFO3hZa5-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="8193.25" y="87.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7gx38a9GT8iCFO3hZa5-31" value="SCRIPT PER CALCOLO FLAG STRATEGICO?" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="7993.25" y="57.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W7gx38a9GT8iCFO3hZa5-35" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="8900" y="53.75" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="W7gx38a9GT8iCFO3hZa5-36" value="GRM4_F_KPI_DWE" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="8865" y="140" width="130" height="27.5" as="geometry" />
+        </mxCell>
+        <mxCell id="W7gx38a9GT8iCFO3hZa5-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.715;entryY=0.955;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0;exitDx=0;exitDy=52.5;exitPerimeter=0;" edge="1" parent="1" source="W7gx38a9GT8iCFO3hZa5-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4930" y="569.95" as="sourcePoint" />
+            <mxPoint x="6267.97125" y="139.99999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7gx38a9GT8iCFO3hZa5-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W7gx38a9GT8iCFO3hZa5-40" target="W7gx38a9GT8iCFO3hZa5-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7gx38a9GT8iCFO3hZa5-40" value="ELIMINO DALLA TABELLA DI DISTINAZIONE LE RIGHE CON DATE_COD BETWEEN $DATACARICAMENTODA e $DATACARICAMENTOA" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="8450" y="55" width="210" height="77.5" as="geometry" />
+        </mxCell>
+        <mxCell id="W7gx38a9GT8iCFO3hZa5-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W7gx38a9GT8iCFO3hZa5-41" target="W7gx38a9GT8iCFO3hZa5-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7gx38a9GT8iCFO3hZa5-41" value="INSERISCO TUTTE LE RIGHE" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="8710" y="62.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k1Mtf4xs3OCMBJWguTNM-1" value="Full Refresh Partizionato" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="700" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="k1Mtf4xs3OCMBJWguTNM-2" value="Full Refresh Partizionato" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="125" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="k1Mtf4xs3OCMBJWguTNM-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m220k4vpnrt8Gnx3Cpo--9" target="k1Mtf4xs3OCMBJWguTNM-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1300" y="70" as="sourcePoint" />
+            <mxPoint x="1450" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k1Mtf4xs3OCMBJWguTNM-3" value="Leggo tutte le righe che hanno DATE_COD BETWEEN DATA_VALIDITA_DA E A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="47.5" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k1Mtf4xs3OCMBJWguTNM-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="k1Mtf4xs3OCMBJWguTNM-3" target="k1Mtf4xs3OCMBJWguTNM-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2lmD2Wr2pzCbxsvdMVTa-1" value="Full Refresh Partizionato" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5800" y="260" width="280" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="2lmD2Wr2pzCbxsvdMVTa-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W7gx38a9GT8iCFO3hZa5-31" target="2lmD2Wr2pzCbxsvdMVTa-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="8450" y="94" as="targetPoint" />
+            <mxPoint x="8113" y="88" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2lmD2Wr2pzCbxsvdMVTa-2" value="Aggiunta SESSION_TAG" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="8230" y="55" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

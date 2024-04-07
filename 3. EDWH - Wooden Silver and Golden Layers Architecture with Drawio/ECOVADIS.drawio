@@ -1,0 +1,185 @@
+<mxfile host="app.diagrams.net" modified="2024-03-30T19:17:40.144Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="z60vlPYhzZSBcnwbh3My" version="24.2.1" type="google">
+  <diagram name="Pagina-1" id="7d5u-vrZOAcTwWdgfiD0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="X3Th2q983qREqfdDSldH-12" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="30" width="2135" height="810" as="geometry" />
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="30" y="30" width="1070" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X3Th2q983qREqfdDSldH-1" target="X3Th2q983qREqfdDSldH-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-1" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="90" y="120" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-3" value="CUSTOMER_PROJECT_SRC_&lt;div&gt;2022/23/24.ECOVADIS&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="210" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X3Th2q983qREqfdDSldH-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-4" value="Cancellare tutte le righe della destinazione che hanno YEAR_MONTH BETWEEN DATA_VALIDITA_DA E A" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="293" y="130" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X3Th2q983qREqfdDSldH-8" target="X3Th2q983qREqfdDSldH-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-8" value="Caricare tutte le righe con YEAR_MONTH BETWEEN DATA_VALIDITA_DA E A" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="643" y="125" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-9" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="920" y="120" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-11" value="GRM4_ODS_SRC_ECOVADIS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="890" y="210" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X3Th2q983qREqfdDSldH-13" target="X3Th2q983qREqfdDSldH-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-13" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="70" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-14" value="GRM4_ODS_SRC_ECOVADIS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="160" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X3Th2q983qREqfdDSldH-15" target="X3Th2q983qREqfdDSldH-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-15" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="100" y="410" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-16" value="CUSTOMER_PROJECT_SRC_&lt;div&gt;2022/23/24.BRIDGE_FORNITORI&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="500" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X3Th2q983qREqfdDSldH-18" target="X3Th2q983qREqfdDSldH-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-18" value="AGGIUNTA SESSION_TAG" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="293" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-19" value="Full Refresh" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="463" y="310" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X3Th2q983qREqfdDSldH-21" target="X3Th2q983qREqfdDSldH-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-21" value="TRUNCATE TABELLA DI DESTINAZIONE" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="493" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-22" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="893" y="420" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-23" value="GRM4_ODS_SRC_BRIDGE_FORNITORI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="817" y="500" width="233" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X3Th2q983qREqfdDSldH-25" target="X3Th2q983qREqfdDSldH-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-25" value="INSERIMENTO DI TUTTE LE RIGHE" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="693" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X3Th2q983qREqfdDSldH-27" target="X3Th2q983qREqfdDSldH-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-27" value="AGGIUNTA SESSION_TAG" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X3Th2q983qREqfdDSldH-29" target="X3Th2q983qREqfdDSldH-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-29" value="SELEZIONARE RIGHE CON YEAR_MONTH BETWEEN DATA_VALIDITA_DA E A" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="75" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X3Th2q983qREqfdDSldH-31" target="X3Th2q983qREqfdDSldH-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-31" value="CHECK PK (COUNT YEAR_MONTH E VENDOR_MGM_COD)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="80" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="X3Th2q983qREqfdDSldH-33" target="X3Th2q983qREqfdDSldH-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-33" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="340" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-34" value="GRM4_ODS_SRC_BRIDGE_FORNITORI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1124" y="425" width="233" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="51HhGm8h42IAOhXbCH_u-6" target="X3Th2q983qREqfdDSldH-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-35" value="INNER JOIN CON BRIDGE FORNITORI (VENDOR_MGM = VENDOR_MGM) PER RECUPERARE COLONNA VENDOR_COD" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="60" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X3Th2q983qREqfdDSldH-38" target="X3Th2q983qREqfdDSldH-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-38" value="DELETE ANNO IN CORSO" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2470" y="77.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X3Th2q983qREqfdDSldH-39" target="X3Th2q983qREqfdDSldH-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-39" value="inserimento righe&lt;div&gt;ANNO IN CORSO&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2840" y="75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-42" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="3030" y="65" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.43;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="X3Th2q983qREqfdDSldH-44" target="X3Th2q983qREqfdDSldH-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2620" y="255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-44" value="GRM4_WT_ECOVADIS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2987.25" y="150" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X3Th2q983qREqfdDSldH-47" target="X3Th2q983qREqfdDSldH-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-47" value="CROSS JOIN SU VENDOR_MGM_COD E YEAR_MONTH PER OTTENERE TUTTE LE COMBINAZIONI&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2980" y="270" width="186.25" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X3Th2q983qREqfdDSldH-48" target="X3Th2q983qREqfdDSldH-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-48" value="LEAD PER METTERE L&#39;ULTIMO VALORE DI SCORE PER TUTTO L&#39;ANNO" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2975" y="410" width="196.25" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-50" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="3043.12" y="544.5" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-52" value="GRM4_WT_ECOVADIS_FULL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2975" y="630" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X3Th2q983qREqfdDSldH-53" value="Full Refresh Partizionato" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="30" width="185" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="51HhGm8h42IAOhXbCH_u-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="51HhGm8h42IAOhXbCH_u-3" target="51HhGm8h42IAOhXbCH_u-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="51HhGm8h42IAOhXbCH_u-3" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="520" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="51HhGm8h42IAOhXbCH_u-4" value="GRM4_DIM_FORNITORI_DWA_FINALE" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1134" y="600" width="233" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="51HhGm8h42IAOhXbCH_u-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X3Th2q983qREqfdDSldH-35" target="51HhGm8h42IAOhXbCH_u-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2150" y="110" as="sourcePoint" />
+            <mxPoint x="2420" y="105" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="51HhGm8h42IAOhXbCH_u-6" value="check FK con DIM_FORNITORI_DWA_FINALE&amp;nbsp; (A.VENDOR_COD= B.VENDOR_COD E DATE COD BETWEEN DATA_VALIDITA DA E A)&amp;nbsp; e inserimento valore fittizio in caso di check fallito" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2200" y="60" width="220" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

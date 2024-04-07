@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="736BB6DF-899D-BDA0-6F76-54E7994A1289" containerWithKeyObject="EC320E77-8590-1A2C-98D0-477DB7E99043" localFKIndex="A62B8724-CE98-6A7A-B796-AC66B1D7EE5B" name="F_KPI_GRM4_DWE_DIM_FORNITORI_GRM4_DWA_FK">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:55:55 UTC</createdTime>
+<generatorID>017E4169-7E13-0E62-B6DD-5E7606FC924A</generatorID>
+<ownerDesignName>GRM4</ownerDesignName>
+<referredTableLongName>DIM_FORNITORI_GRM4_DWA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>45279BD0-09B1-060D-5D83-53616D80E9FA</referredTableID>
+<keyObject>5A29ACD7-B6CC-2A0F-E0D2-4552DCFF16A3</keyObject>
+<referredKeyID>5A29ACD7-B6CC-2A0F-E0D2-4552DCFF16A3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>VENDOR_COD</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

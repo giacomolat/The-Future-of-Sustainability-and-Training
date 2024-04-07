@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F724D057-1D93-86E3-0DDA-8B50ABB67363" containerWithKeyObject="1BBCC1C5-4B8D-B827-CD79-408578C42DD8" localFKIndex="DA47237E-DC49-23D2-981E-456F34B26B48" name="MESE_GRM4_DWA_SEMESTRE_GRM4_DWA_FK">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:55:55 UTC</createdTime>
+<generatorID>70750EC1-0ED8-B4E3-52BE-8DCDEBDC8E09</generatorID>
+<ownerDesignName>GRM4</ownerDesignName>
+<referredTableLongName>SEMESTRE_GRM4_DWA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>198DC9A5-EFF3-21F7-55D4-379A99015E5A</referredTableID>
+<keyObject>F3610324-DB4E-1F8A-B6E6-DB81E22D9687</keyObject>
+<referredKeyID>F3610324-DB4E-1F8A-B6E6-DB81E22D9687</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SEM_COD</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

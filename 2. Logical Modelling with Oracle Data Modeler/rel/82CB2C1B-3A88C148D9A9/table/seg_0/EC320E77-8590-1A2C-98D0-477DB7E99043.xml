@@ -1,0 +1,253 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EC320E77-8590-1A2C-98D0-477DB7E99043" name="GRM4_F_KPI_DWE">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:55:55 UTC</createdTime>
+<generatorID>A69EA2ED-A242-61DD-4559-0AC7844E8701</generatorID>
+<ownerDesignName>GRM4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FATTURATO_EURO" id="C8B38EA8-2228-F0D6-DD11-52049ACE1FD0">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:55:55 UTC</createdTime>
+<generatorID>BDD6CD97-08D4-099B-7D70-FC0032186C7A</generatorID>
+<ownerDesignName>GRM4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,10,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FATTURATO_FORNITORI_TRAINING" id="0B4A8ABD-C0C6-1A19-DCA1-7C39DB398C1B">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:55:55 UTC</createdTime>
+<generatorID>C01ECC12-70CF-5390-E2EA-A3B977412E50</generatorID>
+<ownerDesignName>GRM4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,10,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FATTURATO_FORNITORI_ECOVADIS" id="9A4270C3-2EE2-6E3A-4968-D6FFD241AC1C">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:55:55 UTC</createdTime>
+<generatorID>8232F9C2-520D-5220-2471-26FF5168F96C</generatorID>
+<ownerDesignName>GRM4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,10,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PUNTEGGIO_MEDIO_ECOVADIS" id="E70E8E94-FADB-92A4-6CD9-10D97B63F53E">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:55:55 UTC</createdTime>
+<generatorID>60602E9C-14CA-35C0-C2BC-C93BC8B24501</generatorID>
+<ownerDesignName>GRM4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FLAG_FORMAZIONE" id="A66D07CE-D7E0-3CF9-1BBC-0694AEBD93DC">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:55:55 UTC</createdTime>
+<generatorID>34D97AC6-E4E2-0EE3-728C-F0360F201B75</generatorID>
+<ownerDesignName>GRM4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FLAG_ECOVADIS" id="310F9F2D-F94D-7149-F9D8-9C45969606CC">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:55:55 UTC</createdTime>
+<generatorID>CDC65F9E-C3B7-4508-1E05-EA688348A259</generatorID>
+<ownerDesignName>GRM4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="%FATTURATO_FORNITORI_TRAINING" id="7309CE79-C487-7728-EE4E-C3BEE3C06C32">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:55:55 UTC</createdTime>
+<generatorID>F97C9E8F-E76D-CFEA-788A-78AA4F24296E</generatorID>
+<ownerDesignName>GRM4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="%FATTURATO_FORNITORI_ECOVADIS" id="FAF4D2E2-E768-FEB4-5757-C5C21AE6E156">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:55:55 UTC</createdTime>
+<generatorID>C2D8928A-E5A2-09DF-A96D-E7A1949C22F0</generatorID>
+<ownerDesignName>GRM4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FLAG_STRATEGICO" id="228D50CC-91D0-D2D2-332B-39846952A714">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:55:55 UTC</createdTime>
+<generatorID>314E028A-4068-BD03-5AE1-5C5D793B491C</generatorID>
+<ownerDesignName>GRM4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MESE_GRM4_DWA_YEAR_MONTH" id="83B6E025-6650-2A2E-9B2E-488E908B9740">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:55:55 UTC</createdTime>
+<generatorID>45CC6462-EC6B-16F2-B177-AB0E2A1CE218</generatorID>
+<ownerDesignName>GRM4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F4E05F36-40AA-96BF-2DC5-C0ABD7E8453A" referredColumn="96FDFAB3-2E29-B672-E6A7-FD3E9E71E35A"/>
+</associations>
+</Column>
+<Column name="DIM_GRUPPO_MERCI_GRM4_DWA_MATERIAL_GROUP_COD" id="04D35F7B-3D15-E12A-CF3F-307F7FA81479">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:55:55 UTC</createdTime>
+<generatorID>8224CF8F-FE65-4A45-7D11-42932A8C1243</generatorID>
+<ownerDesignName>GRM4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C2ACFE01-024F-C7B8-22DA-599BDF1D1670" referredColumn="8BBAAB19-076B-FC87-578B-BCD84D242FFB"/>
+</associations>
+</Column>
+<Column name="DIM_FORNITORI_GRM4_DWA_VENDOR_COD" id="C9AAC80F-A135-F8D2-04F8-DF0F0A46C4A9">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:55:55 UTC</createdTime>
+<generatorID>C3597D39-0CCD-E554-E6D4-D8ED76A22853</generatorID>
+<ownerDesignName>GRM4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="736BB6DF-899D-BDA0-6F76-54E7994A1289" referredColumn="3BD1A9AD-1C75-7010-AA75-E998D02F5D62"/>
+</associations>
+</Column>
+<Column name="DIM_COMPANY_GRM4_DWA_COMPANY_COD" id="DDB9AE99-DF23-4861-C6BF-65C333736E16">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:55:55 UTC</createdTime>
+<generatorID>025BE96F-000A-FD4F-C9BB-2833A99F68F7</generatorID>
+<ownerDesignName>GRM4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="10735781-5A85-F91C-9F5F-8534B8CDE399" referredColumn="F3A53AEC-1BF7-9772-8471-3C77B26E18F6"/>
+</associations>
+</Column>
+<Column name="SESSION_TAG" id="7E73D768-AC30-49AC-2633-F3BE3F39993A">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:55:55 UTC</createdTime>
+<generatorID>F3516656-658E-0CE1-267E-B9BE0680F97F</generatorID>
+<ownerDesignName>GRM4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="107FA0AD-A915-D094-89E4-40451E8CA702" name="F_KPI_GRM4_DWE_MESE_GRM4_DWA_FK">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:55:55 UTC</createdTime>
+<generatorID>44EFBF9A-9C0C-DD4D-F505-AA052E5BBC92</generatorID>
+<ownerDesignName>GRM4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83B6E025-6650-2A2E-9B2E-488E908B9740"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="576C94CD-3A13-4CAA-A6F8-A125AB84872C" name="F_KPI_GRM4_DWE_DIM_GRUPPO_MERCI_GRM4_DWA_FK">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:55:55 UTC</createdTime>
+<generatorID>969ABD54-1F24-B2B1-78F5-BEA277ACDE58</generatorID>
+<ownerDesignName>GRM4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04D35F7B-3D15-E12A-CF3F-307F7FA81479"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A62B8724-CE98-6A7A-B796-AC66B1D7EE5B" name="F_KPI_GRM4_DWE_DIM_FORNITORI_GRM4_DWA_FK">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:55:55 UTC</createdTime>
+<generatorID>017E4169-7E13-0E62-B6DD-5E7606FC924A</generatorID>
+<ownerDesignName>GRM4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9AAC80F-A135-F8D2-04F8-DF0F0A46C4A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="59BB73FC-6A29-570A-B6A9-B152A599A3A9" name="F_KPI_GRM4_DWE_DIM_COMPANY_GRM4_DWA_FK">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:55:55 UTC</createdTime>
+<generatorID>4F141A7A-207B-019C-8473-0C3A44558F3B</generatorID>
+<ownerDesignName>GRM4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDB9AE99-DF23-4861-C6BF-65C333736E16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C2ACFE01-024F-C7B8-22DA-599BDF1D1670" containerWithKeyObject="EC320E77-8590-1A2C-98D0-477DB7E99043" localFKIndex="576C94CD-3A13-4CAA-A6F8-A125AB84872C" name="F_KPI_GRM4_DWE_DIM_GRUPPO_MERCI_GRM4_DWA_FK">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:55:55 UTC</createdTime>
+<generatorID>969ABD54-1F24-B2B1-78F5-BEA277ACDE58</generatorID>
+<ownerDesignName>GRM4</ownerDesignName>
+<referredTableLongName>DIM_GRUPPO_MERCI_GRM4_DWA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>71AD00A4-DDEA-E56C-AFBB-E3B06BA9D60B</referredTableID>
+<keyObject>8885A647-EF72-CDA6-2A04-5B8D658F3F65</keyObject>
+<referredKeyID>8885A647-EF72-CDA6-2A04-5B8D658F3F65</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>MATERIAL_GROUP_COD</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

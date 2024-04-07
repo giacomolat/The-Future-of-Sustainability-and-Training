@@ -1,0 +1,42 @@
+<project name="GRM4_CAPSTONE" id="134c26a8-0b4c-44d4-9f70-c87e282e9597" toolversion="4.0.0.0">
+  <datawarehouse>
+    <datamarts>
+      <datamart name="Datamart" id="05acb508-e857-4e16-90c3-f185a8ec34d1">
+        <factschemas>
+          <factschema id="f854d55e-1fc8-48bf-8fea-df20a842ab34" />
+        </factschemas>
+      </datamart>
+    </datamarts>
+  </datawarehouse>
+  <conformedHierarchies>
+    <conformedHierarchy id="ccc92415-2e5a-4a29-9cdb-fe7ad25afe2a" />
+    <conformedHierarchy id="3c32e27b-957d-49b8-b122-4f94837b517d" />
+    <conformedHierarchy id="656fa557-93fe-42f1-b663-91c63d1e866a" />
+    <conformedHierarchy id="2ea2f81b-54a8-4140-a077-1c624da40c62" />
+  </conformedHierarchies>
+  <areas>
+    <area name="FACT" id="c83d25b2-4fd0-41a8-b99c-6c878046acdc">
+      <factSchemas>
+        <factschema id="f854d55e-1fc8-48bf-8fea-df20a842ab34" />
+      </factSchemas>
+    </area>
+  </areas>
+  <customProperties>
+    <attributes />
+    <measures />
+    <facts />
+  </customProperties>
+  <linkedProperties />
+  <projectOptions>
+    <logicModelingProfile name="starschema" isEditable="false" />
+    <logicModelingNamePrefixes DimensionTableNamePrefix="DT_" FactTableNamePrefix="FT_" BridgeTableNamePrefix="BT_" NavigationTableNamePrefix="NAV_" JunkTableNamePrefix="JT_" PrimaryKeyNamePrefix="PK_" ForeignKeyNamePrefix="FK_" TableIdNamePrefix="ID_" ConformedDimensionViewNamePrefix="DTV_" TemporalScenarioRollbackFromFieldName="FROM" TemporalScenarioRollbackToFieldName="TO" TemporalScenarioRollbackMasterFieldName="MASTER" />
+    <logicalModelingDefaultTypes>
+      <attributes name="VARCHAR" length="255" scale="-1" precision="-1" />
+      <measures name="DECIMAL" length="-1" scale="3" precision="18" />
+      <surrogates name="INT" length="-1" scale="-1" precision="-1" />
+      <temporalScenarioRollbackFromType name="DATE" length="-1" scale="-1" precision="-1" />
+      <temporalScenarioRollbackToType name="DATE" length="-1" scale="-1" precision="-1" />
+      <temporalScenarioRollbackMasterType name="INT" length="-1" scale="-1" precision="-1" />
+    </logicalModelingDefaultTypes>
+  </projectOptions>
+</project>

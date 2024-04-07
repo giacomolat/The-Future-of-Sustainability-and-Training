@@ -1,0 +1,148 @@
+<mxfile host="app.diagrams.net" modified="2024-03-29T11:56:46.035Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="XVb8xZtqzlckDyrsw8bS" version="24.2.1" type="google">
+  <diagram name="Pagina-1" id="D83h3Izq3lyeH9TYbnyE">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yl2KQDLe4lp318VU-qsq-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;WOODEN LAYER - DIM_GRUPPO_MERCI&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="430" y="30" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yl2KQDLe4lp318VU-qsq-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="4" y="80" width="1346" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="yl2KQDLe4lp318VU-qsq-3" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="80" y="140" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yl2KQDLe4lp318VU-qsq-4" value="CUSTOMER_PROJECT_SRC_{2022/2023/2024}.&lt;br&gt;DIM_GRUPPO_MERCI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="230" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yl2KQDLe4lp318VU-qsq-5" value="CARICARE LA SORGENTE DIM_GRUPPO_MERCI, IN BASE ALL&#39;ANNO SCELTO NEL PARAMETRO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="150" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yl2KQDLe4lp318VU-qsq-6" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="yl2KQDLe4lp318VU-qsq-3" target="yl2KQDLe4lp318VU-qsq-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="190" as="sourcePoint" />
+            <mxPoint x="200" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yl2KQDLe4lp318VU-qsq-7" value="AGGIUNGO IL TAG DI SESSIONE AD OGNI RIGA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yl2KQDLe4lp318VU-qsq-8" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="yl2KQDLe4lp318VU-qsq-5" target="yl2KQDLe4lp318VU-qsq-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="190" as="sourcePoint" />
+            <mxPoint x="490" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yl2KQDLe4lp318VU-qsq-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yl2KQDLe4lp318VU-qsq-2" target="yl2KQDLe4lp318VU-qsq-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yl2KQDLe4lp318VU-qsq-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yl2KQDLe4lp318VU-qsq-2" target="yl2KQDLe4lp318VU-qsq-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yl2KQDLe4lp318VU-qsq-11" value="TRUNCATE DELLA TABELLA DI DESTINAZIONE GRM4_ODS_SRC_DIM_GRUPPO_MERCI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="150" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yl2KQDLe4lp318VU-qsq-12" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="yl2KQDLe4lp318VU-qsq-7" target="yl2KQDLe4lp318VU-qsq-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="190" as="sourcePoint" />
+            <mxPoint x="650" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yl2KQDLe4lp318VU-qsq-13" value="INSERIAMO TUTTE LE RIGHE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yl2KQDLe4lp318VU-qsq-14" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="yl2KQDLe4lp318VU-qsq-11" target="yl2KQDLe4lp318VU-qsq-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="940" y="180" as="sourcePoint" />
+            <mxPoint x="980" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yl2KQDLe4lp318VU-qsq-16" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1181" y="140" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yl2KQDLe4lp318VU-qsq-17" value="GRM4_ODS_SRC_DIM_GRUPPO_MERCI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yl2KQDLe4lp318VU-qsq-18" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="yl2KQDLe4lp318VU-qsq-13" target="yl2KQDLe4lp318VU-qsq-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1120" y="180" as="sourcePoint" />
+            <mxPoint x="1160" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vCLNWQDuG-axtou-wXEt-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;SILVER LAYER - DIM_GRUPPO_MERCI&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1790" y="30" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vCLNWQDuG-axtou-wXEt-5" value="FULL-REFRESH" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="-120" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="vCLNWQDuG-axtou-wXEt-19" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1365" y="80" width="1525" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="vCLNWQDuG-axtou-wXEt-3" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="125" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vCLNWQDuG-axtou-wXEt-4" value="GRM4_ODS_SRC_DIM_GRUPPO_MERCI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="205" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vCLNWQDuG-axtou-wXEt-7" value="AGGIUNGO IL SESSION_TAG AD OGNI RIGA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1590" y="135" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vCLNWQDuG-axtou-wXEt-8" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="vCLNWQDuG-axtou-wXEt-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1470" y="175" as="sourcePoint" />
+            <mxPoint x="1590" y="165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vCLNWQDuG-axtou-wXEt-9" value="CHECK PK SU MATERIAL_GROUP_COD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="135" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vCLNWQDuG-axtou-wXEt-10" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vCLNWQDuG-axtou-wXEt-7" target="vCLNWQDuG-axtou-wXEt-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1710" y="175" as="sourcePoint" />
+            <mxPoint x="1760" y="125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vCLNWQDuG-axtou-wXEt-11" value="TRUNCATE DELLA TABELLA DI DESTINAZIONE GRM4_DIM_GRUPPO_MERCI_DWA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="135" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vCLNWQDuG-axtou-wXEt-13" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vCLNWQDuG-axtou-wXEt-9" target="vCLNWQDuG-axtou-wXEt-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1920" y="175" as="sourcePoint" />
+            <mxPoint x="1970" y="125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vCLNWQDuG-axtou-wXEt-14" value="INSERISCO TUTTE LE RIGHE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2270" y="135" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vCLNWQDuG-axtou-wXEt-15" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vCLNWQDuG-axtou-wXEt-11" target="vCLNWQDuG-axtou-wXEt-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2200" y="165" as="sourcePoint" />
+            <mxPoint x="2230" y="115" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vCLNWQDuG-axtou-wXEt-16" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="2740" y="125" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vCLNWQDuG-axtou-wXEt-17" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vCLNWQDuG-axtou-wXEt-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2360" y="165" as="sourcePoint" />
+            <mxPoint x="2460" y="165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vCLNWQDuG-axtou-wXEt-18" value="GRM4_DIM_GRUPPO_MERCI_DWA" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2740" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qFAuI2V8BEm6xzURz1L5-1" value="INSERISCO RIGA CON VALORE FITTIZIO E VALORE MATERIAL_GROUP_COD ESTERNO AL DOMINIO DEI VALORI VALIDI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2460" y="135" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qFAuI2V8BEm6xzURz1L5-2" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2670" y="164.5" as="sourcePoint" />
+            <mxPoint x="2740" y="165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

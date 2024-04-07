@@ -1,0 +1,220 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A69EA2ED-A242-61DD-4559-0AC7844E8701" name="GRM4_F_KPI_DWE">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:19:23 UTC</createdTime>
+<ownerDesignName>GRM4</ownerDesignName>
+<engineerTo>
+<item key="82CB2C1B-5291-78D3-0BEB-3A88C148D9A9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="FATTURATO_EURO" id="BDD6CD97-08D4-099B-7D70-FC0032186C7A">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:19:39 UTC</createdTime>
+<ownerDesignName>GRM4</ownerDesignName>
+<engineerTo>
+<item key="82CB2C1B-5291-78D3-0BEB-3A88C148D9A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,10,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FATTURATO_FORNITORI_TRAINING" id="C01ECC12-70CF-5390-E2EA-A3B977412E50">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:21:15 UTC</createdTime>
+<ownerDesignName>GRM4</ownerDesignName>
+<engineerTo>
+<item key="82CB2C1B-5291-78D3-0BEB-3A88C148D9A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,10,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FATTURATO_FORNITORI_ECOVADIS" id="8232F9C2-520D-5220-2471-26FF5168F96C">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:21:33 UTC</createdTime>
+<ownerDesignName>GRM4</ownerDesignName>
+<engineerTo>
+<item key="82CB2C1B-5291-78D3-0BEB-3A88C148D9A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,10,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PUNTEGGIO_MEDIO_ECOVADIS" id="60602E9C-14CA-35C0-C2BC-C93BC8B24501">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:21:48 UTC</createdTime>
+<ownerDesignName>GRM4</ownerDesignName>
+<engineerTo>
+<item key="82CB2C1B-5291-78D3-0BEB-3A88C148D9A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FLAG_FORMAZIONE" id="34D97AC6-E4E2-0EE3-728C-F0360F201B75">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:22:50 UTC</createdTime>
+<ownerDesignName>GRM4</ownerDesignName>
+<engineerTo>
+<item key="82CB2C1B-5291-78D3-0BEB-3A88C148D9A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FLAG_ECOVADIS" id="CDC65F9E-C3B7-4508-1E05-EA688348A259">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:23:18 UTC</createdTime>
+<ownerDesignName>GRM4</ownerDesignName>
+<engineerTo>
+<item key="82CB2C1B-5291-78D3-0BEB-3A88C148D9A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="%FATTURATO_FORNITORI_TRAINING" id="F97C9E8F-E76D-CFEA-788A-78AA4F24296E">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:23:28 UTC</createdTime>
+<ownerDesignName>GRM4</ownerDesignName>
+<engineerTo>
+<item key="82CB2C1B-5291-78D3-0BEB-3A88C148D9A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="%FATTURATO_FORNITORI_ECOVADIS" id="C2D8928A-E5A2-09DF-A96D-E7A1949C22F0">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:24:19 UTC</createdTime>
+<ownerDesignName>GRM4</ownerDesignName>
+<engineerTo>
+<item key="82CB2C1B-5291-78D3-0BEB-3A88C148D9A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FLAG_STRATEGICO" id="314E028A-4068-BD03-5AE1-5C5D793B491C">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:24:49 UTC</createdTime>
+<ownerDesignName>GRM4</ownerDesignName>
+<engineerTo>
+<item key="82CB2C1B-5291-78D3-0BEB-3A88C148D9A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="YEAR_MONTH" id="45CC6462-EC6B-16F2-B177-AB0E2A1CE218">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:26:57 UTC</createdTime>
+<generatorID>44EFBF9A-9C0C-DD4D-F505-AA052E5BBC92</generatorID>
+<ownerDesignName>GRM4</ownerDesignName>
+<engineerTo>
+<item key="82CB2C1B-5291-78D3-0BEB-3A88C148D9A9" value="true"/>
+</engineerTo>
+<referedAttribute>854C6000-58D8-D226-3D67-D41E52BA02C0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MATERIAL_GROUP_COD" id="8224CF8F-FE65-4A45-7D11-42932A8C1243">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:27:03 UTC</createdTime>
+<generatorID>969ABD54-1F24-B2B1-78F5-BEA277ACDE58</generatorID>
+<ownerDesignName>GRM4</ownerDesignName>
+<engineerTo>
+<item key="82CB2C1B-5291-78D3-0BEB-3A88C148D9A9" value="true"/>
+</engineerTo>
+<referedAttribute>EF2F5A41-8E5E-8170-2A52-F06CDC1594EB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VENDOR_COD" id="C3597D39-0CCD-E554-E6D4-D8ED76A22853">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:27:09 UTC</createdTime>
+<generatorID>017E4169-7E13-0E62-B6DD-5E7606FC924A</generatorID>
+<ownerDesignName>GRM4</ownerDesignName>
+<engineerTo>
+<item key="82CB2C1B-5291-78D3-0BEB-3A88C148D9A9" value="true"/>
+</engineerTo>
+<referedAttribute>E6547A99-1C7C-3537-2187-7606163E6F98</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COMPANY_COD" id="025BE96F-000A-FD4F-C9BB-2833A99F68F7">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:27:14 UTC</createdTime>
+<generatorID>4F141A7A-207B-019C-8473-0C3A44558F3B</generatorID>
+<ownerDesignName>GRM4</ownerDesignName>
+<engineerTo>
+<item key="82CB2C1B-5291-78D3-0BEB-3A88C148D9A9" value="true"/>
+</engineerTo>
+<referedAttribute>00233982-7CAA-F6B6-4D9F-D69BF179EC33</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SESSION_TAG" id="F3516656-658E-0CE1-267E-B9BE0680F97F">
+<createdBy>Andrea</createdBy>
+<createdTime>2024-03-21 09:52:05 UTC</createdTime>
+<ownerDesignName>GRM4</ownerDesignName>
+<engineerTo>
+<item key="82CB2C1B-5291-78D3-0BEB-3A88C148D9A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

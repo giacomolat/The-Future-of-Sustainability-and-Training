@@ -1,0 +1,294 @@
+<mxfile host="app.diagrams.net" modified="2024-03-30T19:17:31.604Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="F9PWHmlRz4bJHr3geoEl" version="24.2.1" type="google">
+  <diagram name="Pagina-1" id="SmRfDzviYX_cKY3lH-AH">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-153" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="20" y="-420" width="826" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-154" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WrbFBbXjCpfXXKnjMzMh-155" target="WrbFBbXjCpfXXKnjMzMh-158">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-155" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="46" y="-310" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-156" value="CUSTOMER_PROJECT_&lt;br&gt;SRC_202/23/24.DIM_FORNITORI (3 CARICAMENTI)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="26" y="-240" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-157" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WrbFBbXjCpfXXKnjMzMh-158" target="WrbFBbXjCpfXXKnjMzMh-161">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-158" value="AGGIUNTA SESSION_TAG" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="156" y="-300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-159" value="Full Refresh" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="266" y="-410" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eJxmpffBjZnudlB4zH6r-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WrbFBbXjCpfXXKnjMzMh-161" target="eJxmpffBjZnudlB4zH6r-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-161" value="TRUNCATE TABELLA DI DESTINAZIONE" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="356" y="-300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-162" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="756" y="-310" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-163" value="ODS_SRC_DIM_FORNITORI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="637" y="-220" width="206" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-165" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="850" y="229.38" width="4656" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-166" value="Refresh Incrementale" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="240" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eJxmpffBjZnudlB4zH6r-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WrbFBbXjCpfXXKnjMzMh-168" target="eJxmpffBjZnudlB4zH6r-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-168" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="952" y="460" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-169" value="ODS_SRC_DIM_FORNITORI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="906" y="575" width="206" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-170" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WrbFBbXjCpfXXKnjMzMh-171" target="WrbFBbXjCpfXXKnjMzMh-173">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-171" value="LEGGO TUTTE LE RIGHE CON SESSION_TAG = ULTIMO VALORE SESSION_TAG" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="476.88" width="144" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-172" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WrbFBbXjCpfXXKnjMzMh-173" target="WrbFBbXjCpfXXKnjMzMh-175">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-173" value="CHECK PK SU VENDOR_COD&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1510.5" y="484.38" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eJxmpffBjZnudlB4zH6r-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WrbFBbXjCpfXXKnjMzMh-175" target="eJxmpffBjZnudlB4zH6r-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-175" value="CHECK FK SU GROUP_LEADER_COD (GROUP_LEAER.GROUP_LEADER_COD = DIM_FORNITORI.GROUP_LEADER_COD) E INSERIMENTO VALORE FITTIZIO IN CASO DI CHECK FALLITO" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1710.5" y="470.63" width="278" height="87.5" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-176" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WrbFBbXjCpfXXKnjMzMh-177" target="WrbFBbXjCpfXXKnjMzMh-179">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-177" value="LEFT OUTER JOIN CON TABELLA DI DESTINAZIONE (ODS_SRC_DIM_FORNITORI.VENDOR_COD = DIM_FORNITORI_DWA.VENDOR_COD E FLAG_ATTIVO =1)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2382.5" y="470.63" width="271" height="87.5" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-178" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WrbFBbXjCpfXXKnjMzMh-179" target="WrbFBbXjCpfXXKnjMzMh-181">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-179" value="&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;CREAZIONE DEL CAMPO FLAG_INS VALORIZZATO COSì:&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;I SE VENDOR_COD è NULL&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;U SE VENDOR_COD NON è NULL ED ESISTE ALMENO UN ATTRIBUTO DI ODS_SRC_DIM_FORNITORI DIVERSO DA QUELLO DI DIM_FORNITORI_DWA&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;N ALTRIMENTI&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2750.5" y="458.13" width="499" height="116.25" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-180" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WrbFBbXjCpfXXKnjMzMh-181" target="WrbFBbXjCpfXXKnjMzMh-183">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-181" value="TRUNCATE TABELLA DI DESTINAZIONE" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3360.5" y="486.255" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-182" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WrbFBbXjCpfXXKnjMzMh-183">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3760.5" y="516.255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-183" value="INSERIMENTO RIGHE&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3560.5" y="486.255" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-184" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="3772" y="473.13" width="58.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-186" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;entryX=0.5;entryY=0;startArrow=none;startFill=0;jettySize=auto;orthogonalLoop=1;strokeColor=#000000;" edge="1" parent="1" source="WrbFBbXjCpfXXKnjMzMh-187">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4630.5" y="411.38" />
+              <mxPoint x="4649.5" y="411.38" />
+              <mxPoint x="4649.5" y="503.38" />
+              <mxPoint x="5030.5" y="503.38" />
+              <mxPoint x="5030.5" y="570.38" />
+            </Array>
+            <mxPoint x="5064.5" y="604.38" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-187" value="UPDATE TABELLA GRM4_DIM_FORNITORI_DWA&lt;br&gt;&amp;nbsp; METTENDO DATA_VALIDITA_A= SYSDATE, FLAG_ATTIVO = 0&amp;nbsp;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4248.5" y="380.88" width="382" height="63.5" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-188" value="Solo le righe U" style="edgeStyle=none;rounded=0;html=1;exitX=1;exitY=0;entryX=0;entryY=0.5;jettySize=auto;orthogonalLoop=1;" edge="1" parent="1" source="WrbFBbXjCpfXXKnjMzMh-190" target="WrbFBbXjCpfXXKnjMzMh-187">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-189" value="Righe I,U" style="edgeStyle=none;rounded=0;html=1;exitX=1;exitY=1;entryX=0.005;entryY=0.571;entryPerimeter=0;jettySize=auto;orthogonalLoop=1;" edge="1" parent="1" source="WrbFBbXjCpfXXKnjMzMh-190">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4249.5" y="614.38" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-190" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="4097.5" y="496.88" width="36" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-191" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;startArrow=none;startFill=0;jettySize=auto;orthogonalLoop=1;strokeColor=#000000;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4630.5" y="610.38" as="sourcePoint" />
+            <mxPoint x="4704.5" y="610.38" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-192" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.85;exitY=0.05;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="WrbFBbXjCpfXXKnjMzMh-177">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5088.5" y="608.38" as="sourcePoint" />
+            <mxPoint x="2490.61" y="506.4050000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="5088.5" y="344.38" />
+              <mxPoint x="4139.5" y="344.38" />
+              <mxPoint x="4139.5" y="374.38" />
+              <mxPoint x="2450.5" y="374.38" />
+              <mxPoint x="2450.5" y="424.38" />
+              <mxPoint x="2400.5" y="424.38" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-193" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;startArrow=none;startFill=0;jettySize=auto;orthogonalLoop=1;strokeColor=#000000;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="WrbFBbXjCpfXXKnjMzMh-190">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3830.5" y="514.88" as="sourcePoint" />
+            <mxPoint x="3610.5" y="549.88" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-194" value="GRM4_WT_DIM_FORNITORI_DWA" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3700.5" y="574.38" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-202" value="AGGIUNTA DI 3 NUOVE COLONNE: DATA_VALIDITA_DA&amp;nbsp;= SYSDATE, DATA_VALIDITA_A= NULL, FLAG_ATTIVO = 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4257.5" y="584.38" width="383" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-207" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WrbFBbXjCpfXXKnjMzMh-203" target="WrbFBbXjCpfXXKnjMzMh-204">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-203" value="Inserisco tutte le righe" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4714.5" y="584.38" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-204" value="" style="shape=cylinder;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5039.5" y="608.88" width="69" height="84.5" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-205" value="GRM4_DIM_FORNITORI_DWA" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4959" y="714.38" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-208" value="SCD2" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3910.5" y="399.38" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-209" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="863" y="-470" width="2367" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-210" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.607;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WrbFBbXjCpfXXKnjMzMh-162" target="WrbFBbXjCpfXXKnjMzMh-165">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="836" y="-270" />
+              <mxPoint x="836" y="569" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-215" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WrbFBbXjCpfXXKnjMzMh-211" target="WrbFBbXjCpfXXKnjMzMh-214">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-211" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="959" y="-350" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-212" value="ODS_SRC_DIM_FORNITORI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="916" y="-240" width="206" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-220" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WrbFBbXjCpfXXKnjMzMh-214" target="WrbFBbXjCpfXXKnjMzMh-219">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-214" value="SELEZIONARE VALORI DISTINTI DI VENDOR_COD" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1112" y="-320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-223" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WrbFBbXjCpfXXKnjMzMh-216" target="WrbFBbXjCpfXXKnjMzMh-222">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-216" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="979" y="-90" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-217" value="ODS_SRC_DIM_FORNITORI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="916" width="206" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mnk2fiRw2XDPXY8w7Kil-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WrbFBbXjCpfXXKnjMzMh-219" target="WrbFBbXjCpfXXKnjMzMh-227">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-219" value="INNER JOIN SU (A.VENDOR_COD = B.GROUP_LEADR_COD)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1312" y="-320" width="224" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-224" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="WrbFBbXjCpfXXKnjMzMh-222" target="WrbFBbXjCpfXXKnjMzMh-219">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-222" value="SELEZIONARE VALORI DISTINTI DI GROUP_LEADER_COD" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1101" y="-80" width="197" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mnk2fiRw2XDPXY8w7Kil-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WrbFBbXjCpfXXKnjMzMh-225" target="WrbFBbXjCpfXXKnjMzMh-229">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-225" value="CHECK PK SU GROUP_LEADER_COD&lt;div&gt;(EX VENDOR_COD)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2030" y="-320" width="168" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mnk2fiRw2XDPXY8w7Kil-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WrbFBbXjCpfXXKnjMzMh-227" target="WrbFBbXjCpfXXKnjMzMh-225">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-227" value="RINOMINARE COLONNA VENDOR_COD IN BASE ALLA TABELLA DI DESTINAZIONE (GROUP_LEADER_COD)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1662" y="-340" width="258" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-232" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WrbFBbXjCpfXXKnjMzMh-229" target="WrbFBbXjCpfXXKnjMzMh-231">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-229" value="INSERIMENTO SESSION_TAG" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2283" y="-320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-234" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WrbFBbXjCpfXXKnjMzMh-231" target="WrbFBbXjCpfXXKnjMzMh-233">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-231" value="TRUNCATE TABELLA DESTINAZIONE" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2483" y="-320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eJxmpffBjZnudlB4zH6r-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WrbFBbXjCpfXXKnjMzMh-233" target="eJxmpffBjZnudlB4zH6r-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-233" value="INSERIMENTO RIGHE IN TABELLA DI DESTINAZIONE" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2683" y="-320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-235" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="3086" y="-330" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-237" value="GRM4_GROUP_LEADER_DWA" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3016" y="-240" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WrbFBbXjCpfXXKnjMzMh-238" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.183;entryY=0.429;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WrbFBbXjCpfXXKnjMzMh-235" target="WrbFBbXjCpfXXKnjMzMh-165">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eJxmpffBjZnudlB4zH6r-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eJxmpffBjZnudlB4zH6r-2" target="WrbFBbXjCpfXXKnjMzMh-162">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eJxmpffBjZnudlB4zH6r-2" value="INSERIMENTO DI TUTTE LE RIGHE" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="556" y="-300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eJxmpffBjZnudlB4zH6r-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eJxmpffBjZnudlB4zH6r-5" target="WrbFBbXjCpfXXKnjMzMh-235">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eJxmpffBjZnudlB4zH6r-5" value="INSERIMENTO RIGA CON VALORI FITTIZI" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2883" y="-320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eJxmpffBjZnudlB4zH6r-8" value="INSERIMENTO RIGA FITTIZIA IN FASE DI CREAZIONE DELLA TABELLA" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5020.5" y="229.38" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="eJxmpffBjZnudlB4zH6r-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eJxmpffBjZnudlB4zH6r-9" target="WrbFBbXjCpfXXKnjMzMh-177">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eJxmpffBjZnudlB4zH6r-9" value="CREAZIONE CHIAVE SURROGATA" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2147.5" y="484.38" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eJxmpffBjZnudlB4zH6r-12" value="Full Refresh" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1935" y="-440" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eJxmpffBjZnudlB4zH6r-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eJxmpffBjZnudlB4zH6r-15" target="WrbFBbXjCpfXXKnjMzMh-171">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eJxmpffBjZnudlB4zH6r-15" value="SELEZIONARE I VALORI DI VENDOR_COD CHE NON HANNO CORRISPONEDNZA CON GROUP_LEADER_COD" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1062" y="451.88" width="198" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
