@@ -1,0 +1,4 @@
+*.pas linguist-detectable=false
+*.sql linguist-detectable=true
+*.pbix linguist-detectable=true
+*.drawio linguist-detectable=true
