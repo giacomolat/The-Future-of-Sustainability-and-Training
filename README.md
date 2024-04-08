@@ -83,6 +83,8 @@ Below are the KPIs that will be available in the data model:
 ### Conceptual Modelling with [Indyco](https://www.iconsulting.biz/indyco/)
 ![image](https://github.com/giacomolat/The-Future-of-Sustainability-and-Training/assets/105134422/1a585b1a-a238-4305-a81b-1e35604dec22)
 
+For more details, see the following folder: [1. Conceptual Modelling with Indyco](https://github.com/giacomolat/The-Future-of-Sustainability-and-Training/tree/main/1.%20Conceptual%20Modelling%20with%20Indyco)
+
 ### Logical Modelling with [Oracle SQL Developer Data Modeler](https://www.oracle.com/database/sqldeveloper/technologies/sql-data-modeler/)
 **Logical Model:**
 ![image](https://github.com/giacomolat/The-Future-of-Sustainability-and-Training/assets/105134422/797f4a41-8d17-4da2-b8cd-c7e03fce8129)
@@ -90,10 +92,21 @@ Below are the KPIs that will be available in the data model:
 **Relational Model:**
 ![image](https://github.com/giacomolat/The-Future-of-Sustainability-and-Training/assets/105134422/7f994456-0c3a-4989-af4b-8503ecb78622)
 
-### Enterprise Data Warehouse: Wooden, Silver and Golden Layers Architecture with draw.io
+For more details, see the following folder: [2. Logical Modelling with Oracle Data Modeler](https://github.com/giacomolat/The-Future-of-Sustainability-and-Training/tree/main/2.%20Logical%20Modelling%20with%20Oracle%20Data%20Modeler)
 
-Preview only the following ETL flow: KPIs Invoiced Fact Table
+### Enterprise Data Warehouse (EDWH): Wooden, Silver and Golden layers Architecture with draw.io
+Preview only the following flow: Invoiced Fact Table (Wooden, Silver and Golden layers)
 ![image](https://github.com/giacomolat/The-Future-of-Sustainability-and-Training/assets/105134422/374d2245-e383-4b6a-9d45-e48588937f18)
+
+For more details, including of other flows, see the following folder: [3. EDWH - Wooden Silver and Golden Layers Architecture with Drawio](https://github.com/giacomolat/The-Future-of-Sustainability-and-Training/tree/main/3.%20EDWH%20-%20Wooden%20Silver%20and%20Golden%20Layers%20Architecture%20with%20Drawio)
+
+### Extract Transform and Load (ETL) flows using Microsoft Azure Data Factory
+Preview only the following ETL flow: Invoiced Fact Table (Golden layer)
+![image](https://github.com/giacomolat/The-Future-of-Sustainability-and-Training/assets/105134422/4aff1dba-ae55-4f3a-bb84-6342f12d66e5)
+
+![image](https://github.com/giacomolat/The-Future-of-Sustainability-and-Training/assets/105134422/1ebbd2ca-9ca3-401a-bd8e-5ee0584da1c3)
+
+For more details, including of other ETL flows, see the following folder: [4. ETL Processes - Pipelines with Microsoft Azure Data Factory](https://github.com/giacomolat/The-Future-of-Sustainability-and-Training/tree/main/4.%20ETL%20Processes%20-%20Pipelines%20with%20Microsoft%20Azure%20Data%20Factory)
 
 ### Dashboard 
 (NOTE: to view the interactive dashboard, open the.pbix file using Power BI Desktop)
