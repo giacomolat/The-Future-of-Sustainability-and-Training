@@ -70,17 +70,17 @@ Below are the KPIs that will be available in the data model:
 | **Name** | *Average Ecovadis score* |
 | **Description** | The KPI represents the average score of all suppliers certified with Ecovadis that have an invoiced value grater than 0 |
 
-## Activity plan:
+## Activity plan
 - *Step n'1*: Data analysis on Oracle DB
 - *Step n'2*: Identify facts, dimensions and metrics (KPIs)
-- *Step n'3*: Creation of the Dimensional Fact Model (DFM)
-- *Step n'4*: Creation of the Logical Model, starting from the DFM
+- *Step n'3*: Creation of the Dimensional Fact Model (DFM) using Indyco
+- *Step n'4*: Creation of the Logical Model, starting from the DFM, using Oracle SQL Developer Data Modeler
 - *Step n'5*: Flow planning via draw.io
-- *Step n'6*: Creating flows using Microsoft Azure Data Factory
-- *Step n'7*: Dashboard creation using Microsoft Azure Power BI
+- *Step n'6*: Creating ETL flows using Microsoft Azure Data Factory
+- *Step n'7*: Creating Dashboard using Microsoft Power BI and DAX
 
 ## Dashboard preview
-(NOTE: To view the interactive dashboard, open the.pbix file using Power BI Desktop)
+(NOTE: to view the interactive dashboard, open the.pbix file using Power BI Desktop)
 
 *First page*: KPIs
 ![image](https://github.com/giacomolat/The-Future-of-Sustainability-and-Training/assets/105134422/9e603cf3-4c57-4759-bd77-eaf2a6b9a57d)
@@ -88,5 +88,5 @@ Below are the KPIs that will be available in the data model:
 *Second page:* Material Group
 ![image](https://github.com/giacomolat/The-Future-of-Sustainability-and-Training/assets/105134422/2b924c3b-4e72-4389-b3ce-7c9df6d5ad27)
 
-*Third page:* Supplier history
+*Third page:* Supplier History
 ![image](https://github.com/giacomolat/The-Future-of-Sustainability-and-Training/assets/105134422/d35eaf84-b873-47e3-8734-ab8efbc0d6c8)
