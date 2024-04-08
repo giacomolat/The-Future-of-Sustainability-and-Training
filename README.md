@@ -95,22 +95,20 @@ For more details, see the following folder: [1. Conceptual Modelling with Indyco
 For more details, see the following folder: [2. Logical Modelling with Oracle Data Modeler](https://github.com/giacomolat/The-Future-of-Sustainability-and-Training/tree/main/2.%20Logical%20Modelling%20with%20Oracle%20Data%20Modeler)
 
 ### Enterprise Data Warehouse (EDWH): Wooden, Silver and Golden layers Architecture with draw.io
-Preview only the following flow: Invoiced Fact Table (Wooden, Silver and Golden layers)
+Preview only the Invoiced Fact Table flow, with Wooden, Silver and Golden layers
 ![image](https://github.com/giacomolat/The-Future-of-Sustainability-and-Training/assets/105134422/374d2245-e383-4b6a-9d45-e48588937f18)
 
 For more details, including of other flows, see the following folder: [3. EDWH - Wooden Silver and Golden Layers Architecture with Drawio](https://github.com/giacomolat/The-Future-of-Sustainability-and-Training/tree/main/3.%20EDWH%20-%20Wooden%20Silver%20and%20Golden%20Layers%20Architecture%20with%20Drawio)
 
 ### Extract Transform and Load (ETL) flows using Microsoft Azure Data Factory
-Preview only the following ETL flow: Invoiced Fact Table (Golden layer)
+Preview only the Invoiced Fact Table ETL flow (Golden layer)
 ![image](https://github.com/giacomolat/The-Future-of-Sustainability-and-Training/assets/105134422/4aff1dba-ae55-4f3a-bb84-6342f12d66e5)
 
 ![image](https://github.com/giacomolat/The-Future-of-Sustainability-and-Training/assets/105134422/1ebbd2ca-9ca3-401a-bd8e-5ee0584da1c3)
 
 For more details, including of other ETL flows, see the following folder: [4. ETL Processes - Pipelines with Microsoft Azure Data Factory](https://github.com/giacomolat/The-Future-of-Sustainability-and-Training/tree/main/4.%20ETL%20Processes%20-%20Pipelines%20with%20Microsoft%20Azure%20Data%20Factory)
 
-### Dashboard 
-(NOTE: to view the interactive dashboard, open the.pbix file using Power BI Desktop)
-
+### Data Analytics & Visualization using Microsoft Power BI and DAX 
 *First page*: KPIs
 ![image](https://github.com/giacomolat/The-Future-of-Sustainability-and-Training/assets/105134422/9e603cf3-4c57-4759-bd77-eaf2a6b9a57d)
 
@@ -119,3 +117,5 @@ For more details, including of other ETL flows, see the following folder: [4. ET
 
 *Third page:* Supplier History
 ![image](https://github.com/giacomolat/The-Future-of-Sustainability-and-Training/assets/105134422/d35eaf84-b873-47e3-8734-ab8efbc0d6c8)
+
+For more details, including the csv files associated with the model tables, see the following folder: [5. Data Analytics&Visualization with Microsoft Power BI and DAX](https://github.com/giacomolat/The-Future-of-Sustainability-and-Training/tree/main/5.%20Data%20Analytics%26Visualization%20with%20Microsoft%20Power%20BI%20and%20DAX)
