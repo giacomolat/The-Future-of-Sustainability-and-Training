@@ -79,7 +79,23 @@ Below are the KPIs that will be available in the data model:
 - *Step n'6*: Creating ETL flows using Microsoft Azure Data Factory
 - *Step n'7*: Creating Dashboard using Microsoft Power BI and DAX
 
-## Dashboard preview
+## Project Previews
+### Conceptual Modelling with [Indyco](https://www.iconsulting.biz/indyco/)
+![image](https://github.com/giacomolat/The-Future-of-Sustainability-and-Training/assets/105134422/1a585b1a-a238-4305-a81b-1e35604dec22)
+
+### Logical Modelling with [Oracle SQL Developer Data Modeler](https://www.oracle.com/database/sqldeveloper/technologies/sql-data-modeler/)
+**Logical Model:**
+![image](https://github.com/giacomolat/The-Future-of-Sustainability-and-Training/assets/105134422/797f4a41-8d17-4da2-b8cd-c7e03fce8129)
+
+**Relational Model:**
+![image](https://github.com/giacomolat/The-Future-of-Sustainability-and-Training/assets/105134422/7f994456-0c3a-4989-af4b-8503ecb78622)
+
+### Enterprise Data Warehouse: Wooden, Silver and Golden Layers Architecture with draw.io
+
+Preview only the following ETL flow: KPIs Invoiced Fact Table
+![image](https://github.com/giacomolat/The-Future-of-Sustainability-and-Training/assets/105134422/374d2245-e383-4b6a-9d45-e48588937f18)
+
+### Dashboard 
 (NOTE: to view the interactive dashboard, open the.pbix file using Power BI Desktop)
 
 *First page*: KPIs
